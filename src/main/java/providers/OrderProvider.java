@@ -4,7 +4,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import pojo.CreateOrderRequest;
 
 public class OrderProvider {
-    private static String[] ingredients = new String[]{
+    private static final String[] ingredients = new String[]{
             "61c0c5a71d1f82001bdaaa6d",
             "61c0c5a71d1f82001bdaaa6f",
             "61c0c5a71d1f82001bdaaa70",
